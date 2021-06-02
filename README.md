@@ -1,23 +1,27 @@
 # Database Design and Development Project
 
 ## Project Goal
-The project aims to build a database from scratch for a hiking orgarnization, demonstrating step-by-step process from user requirement analysis, to identify entities and relationships with assumptions about cardinality and participation, EER modeling, relational schema, normalization, ending with the CRUD for illustrating purposes. 
-In addition, 10 business queries are answered at the end, using advance SQL queries to generate reports.
+The project aims to build a database from scratch for a hiking orgarnization, demonstrating step-by-step process from user requirement analysis. We identify entities and relationships with assumptions about cardinality and participation, EER modeling, relational schema, normalization, indexing, and end with the CRUD for illustrating purposes. 
+In addition, business queries are answered at the end, using advance SQL to generate reports.
 
 ## Methodologies and Tools:
 - Relational Database with PostgreSQL
 - ER and ERR Mapping with [diagrams.net](https://app.diagrams.net/?src=about)
-- 
 
 ## Workflow:
 This project follows a [waterfall model](https://en.wikipedia.org/wiki/Waterfall_model), with the phases listed below.
-1. User requirements analysis
-2. Conceptual Design
-3. Logical Design
-4. Physical Design 
-5. Normalization
-6. CRUD Operation
-7. Business Inquiries with Advance PostgreSQL
+1. Project Introduction
+2. Requirements Gathering
+3. Database Design
+  2.1. Logical Design
+  2.2. Physical Design 
+4. Normalization
+5. Data Types and Constraints
+6. SQL DLL
+7. SQL Indexing
+8. Populating Tables
+9. Dropping Tables
+10. Business Inquiries with Advance PostgreSQL
 
 ## Directory
 ```
@@ -33,4 +37,4 @@ This project follows a [waterfall model](https://en.wikipedia.org/wiki/Waterfall
 ```
 
 ## Future Development:
-This database can be use in conjunction with internal softwares in order to provide better UI for users. 
+This database can be use in conjunction with internal software in order to provide better UI for users. 
